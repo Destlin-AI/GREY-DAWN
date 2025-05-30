@@ -1,0 +1,127 @@
+{
+  "system": {
+    "log_level": "INFO",
+    "log_file": "ultra_tensor_server.log",
+    "monitoring_interval_seconds": 15
+  },
+  "api": {
+    "host": "0.0.0.0",
+    "port": 8000,
+    "api_key": "your_secure_api_key_here",
+    "lm_studio_port": null,
+    "lm_studio_host": "localhost",
+    "lm_studio_timeout_seconds": 180
+  },
+  "huggingface": {
+    "cache_dir": "huggingface_models_cache",
+    "default_token": null,
+    "trust_remote_code": false
+  },
+  "model": {
+    "startup_model_name": null,
+    "startup_model_compute_device": null
+  },
+  "hardware": {
+    "gpu": {
+      "reserved_vram_mb_default": 256,
+      "max_utilization_percent_default": 90,
+      "reserved_vram_mb_per_gpu": {},
+      "max_utilization_percent_per_gpu": {}
+    },
+    "cpu": {
+      "max_utilization_percent": 85
+    },
+    "ram": {
+      "reserved_ram_mb": 1024,
+      "max_utilization_percent": 80,
+      "system_buffer_mb_dynamic": 512
+    },
+    "nvme": {
+      "path": "/tmp/tensor_storage",
+      "max_server_utilization_gb": 500,
+      "min_filesystem_free_buffer_gb": 10,
+      "worker_threads": 4,
+      "stripe_size_mb": 16
+    },
+    "ramdisk": {
+      "enabled": false,
+      "path": "/tmp/uts_ramdisk",
+      "size_mb": 2048,
+      "usable_percent_of_total": 95,
+      "cleanup_on_exit": true
+    }
+  },
+  "optimization": {
+    "quantization": {
+      "enabled": true,
+      "default_precision": "fp32",
+      "default_auto_precision": "fp16",
+      "gpu": {
+        "precision": "auto"
+      },
+      "cpu": {
+        "precision": "auto"
+      },
+      "ramdisk": {
+        "precision": "auto"
+      },
+      "nvme": {
+        "precision": "int8"
+      },
+      "adaptive_rules": [
+        {
+          "pattern": "embed",
+          "precision": "fp16",
+          "priority": 10
+        },
+        {
+          "pattern": "attn",
+          "precision": "fp16",
+          "priority": 20
+        },
+        {
+          "pattern": "mlp",
+          "precision": "int8",
+          "priority": 30
+        }
+      ]
+    },
+    "compression": {
+      "enabled": true,
+      "algorithm": "zstd",
+      "level": 3
+    },
+    "placement_strategy": {
+      "rules": [
+        {
+          "pattern": "embed",
+          "tier": "gpu",
+          "priority": 10,
+          "gpu_id": 0
+        },
+        {
+          "pattern": "attn",
+          "tier": "gpu",
+          "priority": 20
+        },
+        {
+          "pattern": "mlp",
+          "tier": "cpu",
+          "priority": 30
+        },
+        {
+          "pattern": "lm_head",
+          "tier": "gpu",
+          "priority": 5
+        }
+      ]
+    },
+    "prefetching": {
+      "enabled": true,
+      "trigger_on_layer_ensure": true,
+      "window_forward": 3,
+      "min_transfer_priority_for_prefetch": 7,
+      "target_cache_tier": "gpu_cache"
+    }
+  }
+}
