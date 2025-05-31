@@ -1,0 +1,1155 @@
+{
+  "/": [
+    ".gitattributes",
+    ".gitignore",
+    "components.json",
+    "D-scan.py",
+    "Defauaaalt.rdp",
+    "Default.rdp",
+    "LICENSE",
+    "next.config.mjs",
+    "package.json",
+    "pnpm-lock.yaml",
+    "postcss.config.mjs",
+    "README.md",
+    "tailwind.config.ts",
+    "tensor_config.json",
+    "tsconfig.json"
+  ],
+  ".git": [
+    "COMMIT_EDITMSG",
+    "config",
+    "description",
+    "FETCH_HEAD",
+    "HEAD",
+    "index"
+  ],
+  ".git\\hooks": [
+    "applypatch-msg.sample",
+    "commit-msg.sample",
+    "fsmonitor-watchman.sample",
+    "post-update.sample",
+    "pre-applypatch.sample",
+    "pre-commit.sample",
+    "pre-merge-commit.sample",
+    "pre-push.sample",
+    "pre-rebase.sample",
+    "pre-receive.sample",
+    "prepare-commit-msg.sample",
+    "push-to-checkout.sample",
+    "sendemail-validate.sample",
+    "update.sample"
+  ],
+  ".git\\info": [
+    "exclude"
+  ],
+  ".git\\logs": [
+    "HEAD"
+  ],
+  ".git\\logs\\refs": [],
+  ".git\\logs\\refs\\heads": [
+    "main"
+  ],
+  ".git\\logs\\refs\\remotes": [],
+  ".git\\logs\\refs\\remotes\\origin": [
+    "HEAD",
+    "main"
+  ],
+  ".git\\objects": [],
+  ".git\\objects\\00": [
+    "e92929bf82950d2197bea7b84ee0cecfbf2d27"
+  ],
+  ".git\\objects\\02": [
+    "61293c5a304cd38ffc6105c3e837ad81553a5c",
+    "995ebabd36516dd7cd1ff4a20958f2a4c46cb9"
+  ],
+  ".git\\objects\\03": [
+    "95f48e5467d2f345487d6a2bb2dbc6ef674dcf"
+  ],
+  ".git\\objects\\04": [
+    "f6f0612f737c6e199f16bb3f215ed3e44d1127"
+  ],
+  ".git\\objects\\05": [
+    "dda9b6d9700fcced19068b3f31747ac09a63e8"
+  ],
+  ".git\\objects\\06": [
+    "7530a7b76dc2e3239a086644fd637af2f92218"
+  ],
+  ".git\\objects\\0a": [
+    "7bade84cce0e31e3c9a4660d7f71ab32e14e36"
+  ],
+  ".git\\objects\\0c": [
+    "38131ef593b709f4db7670dfd47d20935e6fed",
+    "c178b015b4047e8612575ec74463a9f66e0a6d"
+  ],
+  ".git\\objects\\0d": [
+    "418d59620a9dab42afadd29ce851ad36ccffdb"
+  ],
+  ".git\\objects\\0f": [
+    "26e5b27fb2c99d863155bdf61c531df04c99fe"
+  ],
+  ".git\\objects\\10": [
+    "04bd6350c14174f6fa874b8152a033bb2ebc86",
+    "3742ca51db8a799d72aadfceeaafa4a067bc49",
+    "ac4b984ca58bd5d6d38ebe016f00513b7da837"
+  ],
+  ".git\\objects\\11": [
+    "4635fd54c725e3a0c9b8aba1f5aab54b9aefd6"
+  ],
+  ".git\\objects\\13": [
+    "f24bf4a7199593d611210596d3f953930a5768"
+  ],
+  ".git\\objects\\14": [
+    "29c7d27413650f4517c1384aa505ffa29c3c67",
+    "8d46b583d71fee178c7f8a06ef0823d808267d",
+    "be10165c3e660690896aa201c37e279db51d66",
+    "e5e2d6da2759c1b40f11c59646bebd3d0efc39"
+  ],
+  ".git\\objects\\15": [
+    "241a3198e4670f84b7b74026068c0dd8172008",
+    "24bbefd7b56664a1784963d0817828b3a641ce",
+    "833146e4900125868cf48e8eacb69e42899fd5"
+  ],
+  ".git\\objects\\16": [
+    "30247a87bac52bebaa8e76cb5294e47b9f16c4",
+    "56cb7bbbf3fbc0f160baae52de9d04fe8a45d8",
+    "a8ece252d3e7351156eb4c07c61d288b101ebc"
+  ],
+  ".git\\objects\\18": [
+    "711fa8941d43846625476b598de79b19b76f95",
+    "8c9abb507255bbff032ba9b970591df78ac0a4"
+  ],
+  ".git\\objects\\19": [
+    "4b4f73353e9b03e8cac41f48daa494e3378745",
+    "a5a852de98abe04655439df94c45be124ef2ec"
+  ],
+  ".git\\objects\\1a": [
+    "69fd2a450afc3bf47e08b22c149190df0ffdb4"
+  ],
+  ".git\\objects\\1b": [
+    "c460ede4516f15dc2c472b1ad88b1efded4556"
+  ],
+  ".git\\objects\\1c": [
+    "80c71336bd8733f012cadf8a1bf4ee378c4568",
+    "d216d6d7484d1d2d3f43872878308f8589bf46"
+  ],
+  ".git\\objects\\1d": [
+    "bb231fa8e9341abab6bf08e55884edba513d30",
+    "bef00d9da9fe23afd543b961cabeb59658d1bf"
+  ],
+  ".git\\objects\\1e": [
+    "70a11512e2bd0b5466f85fcc8b1e81f75d84fd",
+    "f0e95af9e9e5e9ca4c7369f1cf765309157e08"
+  ],
+  ".git\\objects\\1f": [
+    "7f0bf91b795b46b8ef3b305268b697f3a4b68b"
+  ],
+  ".git\\objects\\20": [
+    "3c20ecf2fa5f86de4ecfa83dbfc6cd847326bd"
+  ],
+  ".git\\objects\\21": [
+    "1bf1accf47fb670fc0e64fadbdadbd3b3deb44"
+  ],
+  ".git\\objects\\22": [
+    "5e741b0eff1583bb438fbe7cf6060c09903357",
+    "919ebd922a49543f2861d05fe6bf75fb78d5ca"
+  ],
+  ".git\\objects\\23": [
+    "6a40e6f5d89a630453425142155bfe2895ff0a",
+    "73b4976bb8b7d533df26d408fd8c6848e45c97"
+  ],
+  ".git\\objects\\24": [
+    "22f2d6558222dca25f6ef5ae16f5370128ed35"
+  ],
+  ".git\\objects\\25": [
+    "9e273bce7d77a3fd6cf8be7d5c665eafaaa66a"
+  ],
+  ".git\\objects\\26": [
+    "3a852de464e082eda2e016f4633ada46e61335",
+    "7cd39b68f535b078db99e6230207066fa1faef",
+    "e7ca4d568f37599df3668fc4fe6c0a174ab8a4"
+  ],
+  ".git\\objects\\28": [
+    "996772323dba701dfb67f7521e17840c0cb012"
+  ],
+  ".git\\objects\\2a": [
+    "5ee0a66d1fd991703606b634ef437ae80cd943"
+  ],
+  ".git\\objects\\2b": [
+    "0bf3370844ade1d60598022272357a51a339e0",
+    "64d28517748b1d119ee86ef336a655bee1c225",
+    "f5474ff6ff5bbd1a1c526ca9a348f3eeb425ad"
+  ],
+  ".git\\objects\\2e": [
+    "1eafb2a5b37aa7f74b1adb424ad89ca776fb30"
+  ],
+  ".git\\objects\\2f": [
+    "8d75234d87477bd23e7130053ae6fff276898c",
+    "d8fde1cdfec80db09f90cefcf617ff6ba88954"
+  ],
+  ".git\\objects\\31": [
+    "0205e416bcdbd7c518df023ff4621ab3a011a5",
+    "04f287d8b3b89a971562b0d00313ec4d1fdf6f",
+    "13e01fccfc4698d061ef1a1e9eabeceb3bb87e",
+    "9224674d29ef07e50dfb197a1a6f791e5c06be",
+    "96afdc2b5c00c170d22cac5013aa03d73f142c"
+  ],
+  ".git\\objects\\32": [
+    "d1fad5dbc0d2d4deeb3dd3c2e65efddb54e370"
+  ],
+  ".git\\objects\\35": [
+    "9c72f648120292ee7a4c86beaf848efe1d92d1"
+  ],
+  ".git\\objects\\36": [
+    "513a3f76f8037448dcd03f720c955dea53d688",
+    "5fc632bde5b22d73d4aae5fbf51289d9a314e3"
+  ],
+  ".git\\objects\\37": [
+    "b922a6597971977977e6bb824b446a8a2c576a"
+  ],
+  ".git\\objects\\38": [
+    "c1408066ce59cb81c3d74b6e7c668c167df772"
+  ],
+  ".git\\objects\\39": [
+    "fe5e175fa735123b32dd109f66932928f2705f"
+  ],
+  ".git\\objects\\3a": [
+    "0be9cd326b438c21457b82a9696ef47cd6e55b"
+  ],
+  ".git\\objects\\3b": [
+    "419b6f9f12a41e95b39f24b744c4f9aa4a6416"
+  ],
+  ".git\\objects\\3c": [
+    "28f672416a0dda2296c27d01950fa871cb8196",
+    "85b466f0bd5e9ea3157c4139fb2282c90db6e9",
+    "bea47e5ce22d3dc646b42153c48c72a5099a78"
+  ],
+  ".git\\objects\\3d": [
+    "a7be3392b69cbb1bc1f179ab659d99ae7cb737"
+  ],
+  ".git\\objects\\3e": [
+    "18e60bceef22e8df642fdabd63b1d120f890f1"
+  ],
+  ".git\\objects\\3f": [
+    "60374fce46b370e4e910d1e023c363f104aad9",
+    "6c93c667123a914eee9bdc94587ecf72077831"
+  ],
+  ".git\\objects\\40": [
+    "767f1e5b28e15ed639def17eb7354dd5cb7b12"
+  ],
+  ".git\\objects\\48": [
+    "5cfeec239a04dcaaa45c0abbc15e147defec3d"
+  ],
+  ".git\\objects\\49": [
+    "73c86dd49bd514ba52a5b7cceb4015bcbbce3f"
+  ],
+  ".git\\objects\\4b": [
+    "2dc7ba6272c0b64b5638838d179ba93896ad80"
+  ],
+  ".git\\objects\\4c": [
+    "628a7aee25968b3c14a0ddb85af3707bd43287"
+  ],
+  ".git\\objects\\4e": [
+    "8bb500b0455c697e87d2fbf105f0e5c2b371de",
+    "aff53144cd3a6053a0eeca7cdabf92c835f71c"
+  ],
+  ".git\\objects\\50": [
+    "40dbc55bb18392f1076f2b39cf319fe7754dcf"
+  ],
+  ".git\\objects\\52": [
+    "1070b59d99a3521f2cf42a86a9d7cc96b8d709",
+    "3d296967bb0ce838b3c1f1b3b813667e23585e",
+    "918d864dd551c63d13af6fbfd401d281fed36b",
+    "ff1bc208ff7a88235b1d7354d1e58142c1e319"
+  ],
+  ".git\\objects\\54": [
+    "23139215176c354588911e07cf9f2efa4ba48b"
+  ],
+  ".git\\objects\\55": [
+    "e1062357a02a575fed8e01c32c5064593f7b00",
+    "e25cc2c475a28dcb3170e9a276d544dc432a2a"
+  ],
+  ".git\\objects\\56": [
+    "018683c7a38e71500c34926d578df58a209704",
+    "2f14105fd0793eddab0501a33d6140a1f66741"
+  ],
+  ".git\\objects\\57": [
+    "21c043a68a7fb3dc1a30e920f5e507a464df81"
+  ],
+  ".git\\objects\\5b": [
+    "95bb5ab2fb976357780100f7a1cc7645a418b8"
+  ],
+  ".git\\objects\\5c": [
+    "40f159dc2c906e09a6794d878254c8d71ea8df",
+    "4f942fc76c59a691aa20ecad61b974b3fc4e43"
+  ],
+  ".git\\objects\\5d": [
+    "381fc9eef20a7f26ecb5710f4c555298a577a8",
+    "f45632ec3f7d57f4d19277dd5c102eba0a09e8"
+  ],
+  ".git\\objects\\5e": [
+    "c7ebe89b1f180d4c99ea436b27786268a21118"
+  ],
+  ".git\\objects\\5f": [
+    "cf9e688201a18184f6fa5f90886b76c37ebfee"
+  ],
+  ".git\\objects\\60": [
+    "75b6b1122f15b4d31a429c48b8c3252678089d"
+  ],
+  ".git\\objects\\61": [
+    "38eb471543b30c69bab93249c5dd048b591c96"
+  ],
+  ".git\\objects\\62": [
+    "0b0890712c7d626cb6b2c5d1d2f9d1bad0a9b7",
+    "273454531a136f13f5ce156157c03e243e8c2c",
+    "e03f7148b63b97321000c04881f44f0735be94",
+    "e062eb929de271395d1f43fae73655a400c2fc"
+  ],
+  ".git\\objects\\63": [
+    "b01e4047d6c05b9d8928bb68fb4ae8dc60f30e"
+  ],
+  ".git\\objects\\64": [
+    "e505060539aad6303ee350b4ee36922e40c5dd"
+  ],
+  ".git\\objects\\65": [
+    "28839b3f22f0acf7a0e8ab46d267d2f923369e",
+    "bb2e7f4ea1b50e4d8faa5e51cf4c8a10fe47d9"
+  ],
+  ".git\\objects\\66": [
+    "268d5ee505d411213d794b66e1247371a477a2"
+  ],
+  ".git\\objects\\67": [
+    "7d219da53adc6ce6f4f418947a79defa6fae18",
+    "c28f20c54057c8a3162042d2dee66178d3e553",
+    "e1f288bdde76e9e6d4026112cc53f01d0ce9ff"
+  ],
+  ".git\\objects\\68": [
+    "9b78b7113bafcc2262ad612cd206c06437acd4"
+  ],
+  ".git\\objects\\69": [
+    "38547cd65c396f6e828a906fbdd5d37bfd8cfa",
+    "d9300cff915840f8b108514dc0bcf52e1b42f3",
+    "e7c4acdebc418cfc8619bf318e593e1addb012"
+  ],
+  ".git\\objects\\6b": [
+    "bc1fe846dab999365a2e580c8b9424f0e0c7cd"
+  ],
+  ".git\\objects\\6c": [
+    "0235d973f5c24aeaea9c3c8f01d05171c82563"
+  ],
+  ".git\\objects\\6f": [
+    "aa819ce703cf0363a8f624b7cee4ecdc8ba049",
+    "aaa5f72e824e5892ddb196e14d429902d1b79a"
+  ],
+  ".git\\objects\\70": [
+    "a72b126c75c0b91057d776e49be2de9ac62faf"
+  ],
+  ".git\\objects\\71": [
+    "1721e9c006b615641a87e149a94f2e0dec3faf"
+  ],
+  ".git\\objects\\72": [
+    "401bc5fb902e6bf19fbe415d9d7300a5839c6a",
+    "f63ad96d3eea63e69751a57869103f5631042d"
+  ],
+  ".git\\objects\\73": [
+    "71b8d50628fac2a16bb4096073b79c52891815",
+    "855d65bdf9d8c48957feaf82ae4de1da291559",
+    "beded03d152f393783e9174d29b1838803e731"
+  ],
+  ".git\\objects\\74": [
+    "0189c57689f7ef1874d25d57a01a01e6dbe757",
+    "c9f0fb3c4b5ac6ffe55db4f9784556048db281"
+  ],
+  ".git\\objects\\76": [
+    "3ceed52f22217268efcc351c17369b0fb9eaff"
+  ],
+  ".git\\objects\\78": [
+    "8874d1c33c2c2284acb2ac2380d052f646b4ec"
+  ],
+  ".git\\objects\\79": [
+    "a05e88fdfb427638e2d50a6c700f18ce28d52d"
+  ],
+  ".git\\objects\\7a": [
+    "4729c029c12a29ca9adc648b74fbebb8b37d28",
+    "d314e5ff1457d2daa266ce09375470e5381ff4"
+  ],
+  ".git\\objects\\7b": [
+    "7bffd81aed2ea344e3980cde5e570330df1bc0"
+  ],
+  ".git\\objects\\7d": [
+    "7cc993af376f80ba552d1adc982d95c0cbc140",
+    "b445b15f6fe73b0046e11e5cd32c3a0c1003db"
+  ],
+  ".git\\objects\\7e": [
+    "79827ef55c3c0030f5ade86339925c1d3dba40"
+  ],
+  ".git\\objects\\7f": [
+    "1faf2cef9505307dd0cef9985094327bb1b43b"
+  ],
+  ".git\\objects\\80": [
+    "0bcdbc5b95e394b2123eaf30b5b56518a95283"
+  ],
+  ".git\\objects\\82": [
+    "800bd771af80fe94a28ac93919a4b2d712f950"
+  ],
+  ".git\\objects\\83": [
+    "1d224db4c8135ae6607684d96d196804fd0e6e"
+  ],
+  ".git\\objects\\87": [
+    "04a9fd1ec8e11d41f4ae17d6b9211732f158d8",
+    "6733a0d9a081410e1e1c6a9ba1dec97e76597f"
+  ],
+  ".git\\objects\\88": [
+    "0002cab893929b7043162a84344f590a412634"
+  ],
+  ".git\\objects\\8a": [
+    "74870460d0526eec3531212c39b8a502ad7b6e",
+    "a26345c7e661cf6827b328b71fae61202210fb"
+  ],
+  ".git\\objects\\8b": [
+    "63627724071032d20f7d71b91255ee557312a9",
+    "f88bf52abc91b6fe5002e0a121c3b3ca087832"
+  ],
+  ".git\\objects\\8c": [
+    "464e46b71fceea7c200287527d9f583a9af705",
+    "4dd0a6857a8784da3d506c787d95336fb82567"
+  ],
+  ".git\\objects\\8d": [
+    "1cfa12d6b32fe8619f49aa2be4100d69567fe4"
+  ],
+  ".git\\objects\\8e": [
+    "9d4f88a468d761d911ba6dea754f3c28037531"
+  ],
+  ".git\\objects\\8f": [
+    "fdf6dc99dd593fab3fc843bf94906e807bb726"
+  ],
+  ".git\\objects\\90": [
+    "e63fdf25d3bdbd02a991a7cb2916fa90550cd9"
+  ],
+  ".git\\objects\\91": [
+    "830db79fcba4f3351e180ae354eb0ecac8fd2e",
+    "99c1c3d6be2b13f239c99d6eb73fe8a5a11c35"
+  ],
+  ".git\\objects\\93": [
+    "ea333b410171f3552eda726bdafd8369b73bae"
+  ],
+  ".git\\objects\\94": [
+    "1b94cb464a5aaa28201eb2cd0494745ccaf25d",
+    "4c1ac3c20cbbe11c83f9f88781585d28bd5c53",
+    "9a76abe68907c49f0933aee0989d5d962ebe9c",
+    "cb2f9efe17450dc7a72aff90fa486a6480ba19"
+  ],
+  ".git\\objects\\95": [
+    "89861b88cd9e30e16e5cb3ee887b9c7e821a4e"
+  ],
+  ".git\\objects\\96": [
+    "36684c8b3ed8fdde916c72c26d67bd7799ab25"
+  ],
+  ".git\\objects\\97": [
+    "e83e4019a0f44841b0172e6c21a5950eece06d"
+  ],
+  ".git\\objects\\99": [
+    "1a9053f3daef5dd55c3e9e5c2dd388fd5b4622",
+    "46eec7e4dcdc9cc861c1d7d2db7daa2f421780"
+  ],
+  ".git\\objects\\9b": [
+    "592c54245ec8b8eefa556511a2319cc7763773"
+  ],
+  ".git\\objects\\9c": [
+    "0de267156246b71398fab3a8a6348be10fa66a",
+    "234cccd174f5badfbdcf70599ec4fa94fe03c6",
+    "d3e82c533aee1654e29f42c3e319bf8592607d"
+  ],
+  ".git\\objects\\9d": [
+    "db33c96adb79e4b3a54e25e3c993b8a51e31bf"
+  ],
+  ".git\\objects\\9e": [
+    "37c36afd321ce1ac0767fa50be98d7eb4f124f"
+  ],
+  ".git\\objects\\9f": [
+    "1a7d749c017284451513dfcd6fd00432ed3974",
+    "a48946afd1eb56bd932377fd888e3986304676",
+    "ec147af906233fc42ac753271d89ec0bc610d1",
+    "f4f2b362fcdd0c94a1fd1fd9940fadc4d5aa8f"
+  ],
+  ".git\\objects\\a0": [
+    "de44914c61d3bfa10a73fb90aa2832f260bb11",
+    "f03b0da06dca9f7beb1e8b058c3d10e9033bcc",
+    "fef16a8e2c27e0ca805a1223072208ad47782e"
+  ],
+  ".git\\objects\\a1": [
+    "6f5fcaa0d8c3e1dad198c03835640c215e9ab3",
+    "7770f009281a707848b029c2ab33d21594cfa0",
+    "8ec5654d4bcbe8a94140ff4f640efb5751290f"
+  ],
+  ".git\\objects\\a2": [
+    "e7231d723d18bfe34a4976d590f34b7fdd92d2"
+  ],
+  ".git\\objects\\a3": [
+    "8cd8bc813094c5b75e78628ded3d2b133bbd42"
+  ],
+  ".git\\objects\\a4": [
+    "8111f5e4f6f321f35d84a342c34d76bf6458f4",
+    "933215d7810380f8f69644bc80f7636d57e33b",
+    "b76b8ba2fbf29f0af5b05866f8bf88969c32bc"
+  ],
+  ".git\\objects\\a5": [
+    "9f4eb922c14c3d382cfc92ee99a7fff7d38330"
+  ],
+  ".git\\objects\\a6": [
+    "028a7047e83f8ff3bc4a659b6819de9bae980d",
+    "bf2ee648dabcdbf73944f3a9a4d77962e777bc"
+  ],
+  ".git\\objects\\a7": [
+    "399783303051033d32985629a821826fbb09e7",
+    "45d872ebd530cb143cfda46ff14663c31fe40f"
+  ],
+  ".git\\objects\\a9": [
+    "3bfe1b2eb4aec3155b23616b85f65883ff6dd0",
+    "cf183aa38410150c8ae2c36973cef7986c4093",
+    "d23d8bfd3b51cf5c36e12d8863dcdb4a70014f"
+  ],
+  ".git\\objects\\aa": [
+    "3bcf53f23cd7c30ea75d0ecfb44cd425b6d64a",
+    "92c30fd2f4721de7bbef1e0eec6f85fd440790",
+    "fa5da5f25b7f9830aeb1115c3e8632a2d5b06f"
+  ],
+  ".git\\objects\\ab": [
+    "25ace8da0bfa32c623eb6e89bf80a39ecb957c",
+    "3d254b04048e5fc4b0b557c0892b5927faf2fc",
+    "9a886188ee83bd64c1d51b753a5c91c5512ca9"
+  ],
+  ".git\\objects\\ac": [
+    "6844236cb8a3195672afa1ea2867e0853a9618"
+  ],
+  ".git\\objects\\ae": [
+    "697b2cae9890aabecef099355fdb73ed477b9f",
+    "ab19b1b94c5e6df631a60c5949b28d9a40fbac"
+  ],
+  ".git\\objects\\af": [
+    "a28f805948328634d1a0e14a90c179061b8234"
+  ],
+  ".git\\objects\\b1": [
+    "695aafcd5925a0b3eb122b9e553b8a0f4a0d47"
+  ],
+  ".git\\objects\\b2": [
+    "2d5172b9ded6c02c77adba294be19d7d7860d5",
+    "3dbe4b82dadea3b66a65a83305d95a5e238318"
+  ],
+  ".git\\objects\\b4": [
+    "12cfdaddf5ac7f4b721823c4d1557a3f1fdbd1",
+    "a0085fe26dd1273e2652ddf29cda43b853e9bf"
+  ],
+  ".git\\objects\\b6": [
+    "a48daff0e1e14d368029e6b50460416ecf380f",
+    "b0c96d364de37ec079818d4833ed9f3b59dae0"
+  ],
+  ".git\\objects\\b7": [
+    "d16b395f80215133ff0e174f8556ad894867a1"
+  ],
+  ".git\\objects\\b8": [
+    "3f1515477d3b85af29d585ace402c9852914d3"
+  ],
+  ".git\\objects\\b9": [
+    "2d35969d8d0db5d883af78f5d5bf620702f8b4",
+    "f51bc06d085e2612e1a0a98af927e68a06cf4a"
+  ],
+  ".git\\objects\\ba": [
+    "6cdc18d6f76ce8dbce65b7b0d08478084a17d5"
+  ],
+  ".git\\objects\\bb": [
+    "3c5e9f7d92bec40d10faca8cc7592c0a13c252"
+  ],
+  ".git\\objects\\bc": [
+    "13934fcf1d7ee9e24315b6ed1e096cc8a27e27",
+    "88c55224f2fb3d05335986f18bfa9452e54fcc"
+  ],
+  ".git\\objects\\bd": [
+    "660420044ea78db26e6e6cd8507782a8efbd32"
+  ],
+  ".git\\objects\\be": [
+    "d68a8e3af24ede3929360b10fbde794f10af92"
+  ],
+  ".git\\objects\\bf": [
+    "0c6bbc17780f1f183fe0b4fd2607266b8e505d"
+  ],
+  ".git\\objects\\c1": [
+    "69d7ebd5d1340c8d4e93205da034e570f8cdbd"
+  ],
+  ".git\\objects\\c2": [
+    "1e02590a22dccab5dbb4e885be02c3492c196e",
+    "43f04f02d8dcedc931a7ad49451a2c29e64f04"
+  ],
+  ".git\\objects\\c3": [
+    "65b8b34551e19d20e603b12bd45d67560b985c",
+    "b1b029d03d54c338b25ee7176f8bfdfd1854b6",
+    "cb029135848cf6131de45a93fcee4e83a031ab"
+  ],
+  ".git\\objects\\c4": [
+    "18c05620028d08a51614f30ece698827ffc64a",
+    "18f2896dee3e2ee616d23dae39cea2e657c715",
+    "2dcdff783aea6a6c4deeb44eadffcba794017e",
+    "e2311800cf2bbf52626c702db9d1ef7469ad5b"
+  ],
+  ".git\\objects\\c5": [
+    "e80c6d138d971ceabdfcd59b7778bf56e58d0d"
+  ],
+  ".git\\objects\\c7": [
+    "5b4a4d40cbe191ca968bc02030f5c5fb3c9336",
+    "f74dff95ff7bd3619b6af1c3c9bf9d35d82040"
+  ],
+  ".git\\objects\\c9": [
+    "499fac3e88dfd1455e8ae220d9995c99af019b"
+  ],
+  ".git\\objects\\ca": [
+    "220a48ac26eb78cef84f5eac16e33c0bb6641e",
+    "707608498428a180839a253646272badd0ebce",
+    "98c4816d12a9c6f8cff1b89c7ad1281b5a3dc0"
+  ],
+  ".git\\objects\\cb": [
+    "2ad734574265b8d326554396241e0fdd38547c",
+    "5c1415d57aea72dd2c34cb6712b9ee085cd7c3"
+  ],
+  ".git\\objects\\cc": [
+    "e7624352eed0000d80b904241738a2b46b1a54"
+  ],
+  ".git\\objects\\cd": [
+    "fe17a3ac1581fa663ca51c3ef464eeaa9ccf08"
+  ],
+  ".git\\objects\\ce": [
+    "05b32982eab66615d31b47316b7514f05c084d"
+  ],
+  ".git\\objects\\cf": [
+    "0f7f24c3dec6501f773c743ad1bda6b4d7e4fd",
+    "1ca5667c820e7dc89e12e14053aa1000278732"
+  ],
+  ".git\\objects\\d0": [
+    "e91bd65bd4a077d3c21b294b116ab8120bad87"
+  ],
+  ".git\\objects\\d2": [
+    "3059fb119a39fe85a935aa1ac7700d4fffb79b",
+    "fe5854c7206c86d13e7dd4794baf3a5e970a6b"
+  ],
+  ".git\\objects\\d3": [
+    "332a189ca61a51fe715290d6cfe468d10be55f"
+  ],
+  ".git\\objects\\d6": [
+    "035804498ccfefe820bf9a3e86b667dfe696be",
+    "a5226f5e9cc09a2bd1ccbce465524e41f04345"
+  ],
+  ".git\\objects\\d7": [
+    "1824a4daa5a1f1c675d9cec7fac421edac3e58",
+    "8bdd94dd32ecacccac22e9ac14040c6c621752",
+    "e34c71a5326e17bb827f28e59c2196502b2e88"
+  ],
+  ".git\\objects\\d8": [
+    "1d11186050a81689657a07fb8dfae7565282db",
+    "cac56b642196f97097e3a89fe7fbfb5224886a",
+    "d244202dc0340b554ef5807621247dcec29af1"
+  ],
+  ".git\\objects\\da": [
+    "e1fb9bba70e1e2275efa1cdd4c4b5868a39063"
+  ],
+  ".git\\objects\\dc": [
+    "06a2e6c15e1bebcd64951829b7c9771b0a981e",
+    "08f7b341a0bcfc8bdb48e1de8b89cf52a7c29b"
+  ],
+  ".git\\objects\\dd": [
+    "7bd8aa95a226cdb0cdb41a5378d2e095e7dc98"
+  ],
+  ".git\\objects\\df": [
+    "0e4a1580aaf0e549ff4fddc7294a403e484ee4",
+    "83c10906fe114d062aa3216556db12c452e1ed",
+    "b8068c2db96964d6d12f6053548535b48d0ebf",
+    "e0770424b2a19faf507a501ebfc23be8f54e7b"
+  ],
+  ".git\\objects\\e0": [
+    "76cfc142f49e32bd4d8755b7058067a663d1e7",
+    "d20ede395dd63182aabeef81238dde6730a1e4"
+  ],
+  ".git\\objects\\e3": [
+    "9d7d1609a4760423468de1b83ea537a4e92a0b"
+  ],
+  ".git\\objects\\e5": [
+    "5aa18d17a60d98ceb4aef5d1d5f56ef1f8ca09"
+  ],
+  ".git\\objects\\e6": [
+    "9de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+  ],
+  ".git\\objects\\e7": [
+    "19446cd265687bf6470b4edb41cfa9f3b34ceb",
+    "63910b27fdd9ac872f56baede51bc839402347"
+  ],
+  ".git\\objects\\e8": [
+    "798ad1185b465742af58a5c9abe827d93eef8c"
+  ],
+  ".git\\objects\\e9": [
+    "8a72ae092e505a3adf1f34f0d31eb6e631c592",
+    "bb814f288346e4a25a2de180fc1189d790a7ac",
+    "de81ea45513c171b25c11cc8adb6ca61ace79b"
+  ],
+  ".git\\objects\\ea": [
+    "2ac8fed74562870c18eb314dfe3d53182ea7b3",
+    "8a7e1153447df8da866f65415d60c94a02677d"
+  ],
+  ".git\\objects\\eb": [
+    "54dcddfb616173f64fdb7447949df26b9d2815"
+  ],
+  ".git\\objects\\ed": [
+    "4def1aeb68d3416fae8904049fdcca50719826"
+  ],
+  ".git\\objects\\ee": [
+    "209455e9fb250cd89ab47176d1b7a63fd1461b",
+    "285f4348395fa2b604a44a9d796fedd867a3f1"
+  ],
+  ".git\\objects\\f0": [
+    "7e3917c35fa4fe12093ec2a1c0f94c9a810b67"
+  ],
+  ".git\\objects\\f1": [
+    "42bfe253102b31fa4477a215e3a1ccec6b9d83",
+    "e102aa16b06e1909e008e13c4b6501a9eb71d5"
+  ],
+  ".git\\objects\\f2": [
+    "6f7b831b7ac136542fd7621420b089623bbaa8",
+    "bdf049fa038a645ee14c59b6e0b208a377c9e1"
+  ],
+  ".git\\objects\\f3": [
+    "352fc4f4e2e423500ec2540625028629ada41f",
+    "acd165dbc17dfa70432220d1b7ddcbcc6e55ef",
+    "c4c30f4c88f31464ec42366002debf17ed6732",
+    "d7fe890b38e42aac468f302eed31b763c4b1e5",
+    "efeee9ba5f4915191dda039059d1a5f9012b4b"
+  ],
+  ".git\\objects\\f4": [
+    "67984856bd487e4797d85580cb10f5bf9ab808",
+    "d32f12a6b5c1ae92d293dddaa9a731362bcf82"
+  ],
+  ".git\\objects\\f6": [
+    "50315f30180800d0fed8ed1e7ceade266e9e71",
+    "d1e63b05c09edb995cb7e548b9f272836ee814"
+  ],
+  ".git\\objects\\f7": [
+    "03ae17ddb9583e4a1c1eca2aa16ba826290a77"
+  ],
+  ".git\\objects\\f8": [
+    "19dc815eebd02db19c389b35e60ea54adb2530",
+    "daff35a95a8112cfd1771baa6308a86b026b69",
+    "fb42d8a18dca2d462df83b44145cae726d061b"
+  ],
+  ".git\\objects\\f9": [
+    "01ed5ec8ac1e8b2dfdd32c5086e85986ea79ee",
+    "15199a0323c6d65344a162260e659df1a0fdb4"
+  ],
+  ".git\\objects\\fb": [
+    "c2b2dac2331534ca25224f1de7ab447b3c55ca"
+  ],
+  ".git\\objects\\fc": [
+    "a1c779bd2d5a1f8133927b071e4e9c97c584a7"
+  ],
+  ".git\\objects\\fd": [
+    "f0a4a1a588c40a7bfb34069c24d0603618e621"
+  ],
+  ".git\\objects\\fe": [
+    "474a1b030d87c3aae34f923979615d6343659b",
+    "51488c7066f6687ef680d6bfaa4f7768ef205c"
+  ],
+  ".git\\objects\\ff": [
+    "27f154181785d6ebb779b0004459df74b2710d",
+    "5f6e5aa13bf8af3b35eb35d298341827d09f6f",
+    "ab4281a630808d526f503077a103e411f22fb3",
+    "d33bbd39a17337e46946d91ac853ff8dce57f5"
+  ],
+  ".git\\objects\\info": [],
+  ".git\\objects\\pack": [],
+  ".git\\refs": [],
+  ".git\\refs\\heads": [
+    "main"
+  ],
+  ".git\\refs\\remotes": [],
+  ".git\\refs\\remotes\\origin": [
+    "HEAD",
+    "main"
+  ],
+  ".git\\refs\\tags": [],
+  "app": [
+    "globals.css",
+    "layout.tsx",
+    "page.tsx"
+  ],
+  "app\\api": [],
+  "app\\api\\agents": [
+    "GitHub.code-workspace",
+    "route.ts"
+  ],
+  "app\\api\\alerts": [
+    "route.ts"
+  ],
+  "app\\api\\analyze-file": [
+    "route.ts"
+  ],
+  "app\\api\\auth": [],
+  "app\\api\\auth\\login": [
+    "route.ts"
+  ],
+  "app\\api\\auth\\me": [
+    "route.ts"
+  ],
+  "app\\api\\brain": [
+    "route.ts"
+  ],
+  "app\\api\\brain\\advanced": [
+    "route.ts"
+  ],
+  "app\\api\\brain\\enhanced": [
+    "route.ts"
+  ],
+  "app\\api\\config": [
+    "route.ts"
+  ],
+  "app\\api\\db": [
+    "route.ts"
+  ],
+  "app\\api\\files": [
+    "route.ts"
+  ],
+  "app\\api\\files\\[filename]": [
+    "route.ts"
+  ],
+  "app\\api\\layers": [
+    "route.ts"
+  ],
+  "app\\api\\layers\\allocate": [
+    "route.ts"
+  ],
+  "app\\api\\layers\\optimize": [
+    "route.ts"
+  ],
+  "app\\api\\llm": [
+    "route.ts"
+  ],
+  "app\\api\\messages": [
+    "route.ts"
+  ],
+  "app\\api\\metrics": [
+    "route.ts"
+  ],
+  "app\\api\\models": [
+    "route.ts"
+  ],
+  "app\\api\\models\\load": [
+    "route.ts"
+  ],
+  "app\\api\\models\\unload": [
+    "route.ts"
+  ],
+  "app\\api\\notifications": [
+    "route.ts"
+  ],
+  "app\\api\\notifications\\latest": [
+    "route.ts"
+  ],
+  "app\\api\\notifications\\read-all": [
+    "route.ts"
+  ],
+  "app\\api\\notifications\\[id]": [
+    "route.ts"
+  ],
+  "app\\api\\performance": [
+    "route.ts"
+  ],
+  "app\\api\\processes": [
+    "route.ts"
+  ],
+  "app\\api\\server": [],
+  "app\\api\\server\\start": [
+    "route.ts"
+  ],
+  "app\\api\\server\\status": [
+    "route.ts"
+  ],
+  "app\\api\\server\\stop": [
+    "route.ts"
+  ],
+  "app\\api\\share": [
+    "route.ts"
+  ],
+  "app\\api\\share\\[id]": [
+    "route.ts"
+  ],
+  "app\\api\\share\\[id]\\content": [
+    "route.ts"
+  ],
+  "app\\api\\socket": [
+    "route.ts"
+  ],
+  "app\\api\\storage": [
+    "route.ts"
+  ],
+  "app\\api\\tensor": [
+    "route.ts"
+  ],
+  "app\\api\\upload": [
+    "route.ts"
+  ],
+  "app\\api\\weather": [
+    "route.ts"
+  ],
+  "app\\dashboard": [],
+  "app\\dashboard\\acceleration": [
+    "page.tsx"
+  ],
+  "app\\dashboard\\console": [
+    "page.tsx"
+  ],
+  "app\\dashboard\\llm-bay": [
+    "page.tsx"
+  ],
+  "app\\dashboard\\models": [
+    "page.tsx"
+  ],
+  "app\\dashboard\\qwen-tensor": [
+    "page.tsx"
+  ],
+  "app\\dashboard\\settings": [
+    "page.tsx"
+  ],
+  "app\\dashboard\\shared": [
+    "page.tsx"
+  ],
+  "app\\dashboard\\tensor": [
+    "page.tsx"
+  ],
+  "app\\dashboard\\tensor\\test": [
+    "page.tsx"
+  ],
+  "app\\dashboard\\toolmaker": [
+    "page.tsx"
+  ],
+  "app\\dashboard\\uploads": [
+    "page.tsx"
+  ],
+  "app\\login": [
+    "page.tsx"
+  ],
+  "app\\shared": [],
+  "app\\shared\\[id]": [
+    "page.tsx"
+  ],
+  "codyfile": [
+    "brain-control-panel.tsx",
+    "brain-controller.ts",
+    "chat_with_brain.py",
+    "drag-and-drop-uploader.tsx",
+    "integration-engine.ts",
+    "local-storage.ts",
+    "monitor-integrator.ts",
+    "plasma-code-reporter.ts",
+    "use-component-monitor.ts"
+  ],
+  "components": [
+    "accordion.tsx",
+    "agent-swarm-dashboard.tsx",
+    "agent-uploader.tsx",
+    "alert-dialog.tsx",
+    "alert.tsx",
+    "brain-control-panel-advanced.tsx",
+    "brain-control-panel.tsx",
+    "collapsible.tsx",
+    "command.tsx",
+    "config-editor.tsx",
+    "console-page-wrapper.tsx",
+    "console-page.tsx",
+    "context-menu.tsx",
+    "data-export.tsx",
+    "dialog.tsx",
+    "drag-and-drop-uploader.tsx",
+    "drawer.tsx",
+    "dropdown-menu.tsx",
+    "enhanced-brain-control-panel.tsx",
+    "file-analysis-panel.tsx",
+    "form.tsx",
+    "hardware-monitor.tsx",
+    "hover-card.tsx",
+    "input-otp.tsx",
+    "input.tsx",
+    "integrated-llm-tensor-manager.tsx",
+    "label.tsx",
+    "log-viewer.tsx",
+    "menubar.tsx",
+    "model-selector.tsx",
+    "navigation-menu.tsx",
+    "notification-generator.tsx",
+    "notification-panel.tsx",
+    "notification-toast.tsx",
+    "popover.tsx",
+    "protected-route.tsx",
+    "qwen-tensor-manager.tsx",
+    "server-controller.tsx",
+    "server-controls.tsx",
+    "share-file-dialog.tsx",
+    "status-bar.tsx",
+    "status-display.tsx",
+    "tensor-dashboard.tsx",
+    "tensor-engine-status.tsx",
+    "tensor-manager.tsx",
+    "theme-provider.tsx",
+    "weather-widget.tsx",
+    "webgpu-tensor-manager.tsx",
+    "webgpu-tensor-test.tsx"
+  ],
+  "components\\code": [
+    "code-generator.tsx"
+  ],
+  "components\\tensor-visualization": [
+    "hardware-performance-monitor.tsx",
+    "layer-transfer-map.tsx",
+    "model-execution-pipeline.tsx",
+    "real-time-metrics.tsx"
+  ],
+  "components\\ui": [
+    "accordion.tsx",
+    "alert-dialog.tsx",
+    "alert.tsx",
+    "aspect-ratio.tsx",
+    "avatar.tsx",
+    "badge.tsx",
+    "breadcrumb.tsx",
+    "button.tsx",
+    "calendar.tsx",
+    "card.tsx",
+    "carousel.tsx",
+    "chart.tsx",
+    "checkbox.tsx",
+    "collapsible.tsx",
+    "command.tsx",
+    "context-menu.tsx",
+    "dialog.tsx",
+    "drawer.tsx",
+    "dropdown-menu.tsx",
+    "form.tsx",
+    "hover-card.tsx",
+    "input-otp.tsx",
+    "input.tsx",
+    "label.tsx",
+    "menubar.tsx",
+    "navigation-menu.tsx",
+    "pagination.tsx",
+    "popover.tsx",
+    "progress.tsx",
+    "radio-group.tsx",
+    "resizable.tsx",
+    "scroll-area.tsx",
+    "select.tsx",
+    "separator.tsx",
+    "sheet.tsx",
+    "sidebar.tsx",
+    "skeleton.tsx",
+    "slider.tsx",
+    "sonner.tsx",
+    "switch.tsx",
+    "table.tsx",
+    "tabs.tsx",
+    "textarea.tsx",
+    "toast.tsx",
+    "toaster.tsx",
+    "toggle-group.tsx",
+    "toggle.tsx",
+    "tooltip.tsx",
+    "use-mobile.tsx",
+    "use-toast.tsx"
+  ],
+  "components\\upload": [
+    "self-repairing-upload.tsx"
+  ],
+  "contexts": [
+    "auth-context.tsx",
+    "notification-context.tsx"
+  ],
+  "data": [
+    "shared-files.json"
+  ],
+  "hooks": [
+    "use-data.ts",
+    "use-mobile.tsx",
+    "use-notifications.ts",
+    "use-qwen-tensor.ts",
+    "use-socket.ts",
+    "use-tensor-api.ts",
+    "use-tensor-engine.ts",
+    "use-toast.ts",
+    "use-weather.ts",
+    "use-webgpu-tensor.ts"
+  ],
+  "lib": [
+    "agent-analyzer.ts",
+    "agent-registry.ts",
+    "api.ts",
+    "auth.ts",
+    "brain-controller.ts",
+    "export.ts",
+    "huggingface-client.ts",
+    "notification-service.ts",
+    "share-service.ts",
+    "tensor-client.ts",
+    "tensor-lm-studio-bridge.ts",
+    "utils.ts",
+    "weather-api.ts"
+  ],
+  "lib\\api": [
+    "tensor-api-client.ts"
+  ],
+  "lib\\brain": [
+    "brain-controller.ts",
+    "enhanced-brain-controller.ts"
+  ],
+  "lib\\hooks": [
+    "use-layers.ts",
+    "use-model.ts",
+    "use-server-status.ts"
+  ],
+  "lib\\python": [
+    "brain_backend.py"
+  ],
+  "lib\\tensor-engine": [
+    "controller.ts",
+    "index.ts",
+    "setup.ts",
+    "webgpu-tensor-engine.ts"
+  ],
+  "lib\\tensor-system": [
+    "context-optimizer.ts",
+    "hardware-detection.ts",
+    "nvme-context-manager.ts",
+    "qwen-tensor-engine.ts",
+    "tensor-engine.ts",
+    "webgpu-tensor-engine.ts"
+  ],
+  "lib\\utils": [
+    "compression.ts",
+    "performance-monitor.ts"
+  ],
+  "lib\\webworkers": [
+    "tensor-physics.ts"
+  ],
+  "public": [
+    "placeholder-logo.png",
+    "placeholder-logo.svg",
+    "placeholder-user.jpg",
+    "placeholder.jpg",
+    "placeholder.svg"
+  ],
+  "scripts": [
+    "setup-tensor.ts",
+    "tensor-daemon.py",
+    "tensor-server.py"
+  ],
+  "styles": [
+    "globals.css"
+  ],
+  "tensor-scripts": [
+    "analyze_model.py",
+    "stop_tensor.py",
+    "tensor_server_nvme.py",
+    "tensor_status.py"
+  ]
+}
